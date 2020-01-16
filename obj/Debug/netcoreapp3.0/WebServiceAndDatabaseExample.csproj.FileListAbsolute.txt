@@ -1,0 +1,227 @@
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.exe
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.deps.json
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.json
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.dev.json
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Text.Encodings.Web.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Text.Json.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csprojAssemblyReference.cache
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfoInputs.cache
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfo.cs
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csproj.CopyComplete
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\e46991\Downloads\Week3\Week3\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\DELL\Desktop\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\DELL\Desktop\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.exe
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.deps.json
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.json
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.dev.json
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Text.Encodings.Web.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Text.Json.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csprojAssemblyReference.cache
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfoInputs.cache
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfo.cs
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csproj.CopyComplete
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\qinqi\Downloads\暑期课程\WDT.Day03archive.TL\_TL3archive\exercise1\WebServiceAndDatabaseExample\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csprojAssemblyReference.cache
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfoInputs.cache
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfo.cs
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.exe
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.deps.json
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.json
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.dev.json
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Text.Encodings.Web.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Text.Json.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\qinqi\Downloads\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csproj.CopyComplete
+D:\作业\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csprojAssemblyReference.cache
+D:\作业\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfoInputs.cache
+D:\作业\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfo.cs
+D:\作业\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+D:\作业\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\appsettings.json
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.exe
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.deps.json
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.json
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.dev.json
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Json.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Text.Encodings.Web.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\System.Text.Json.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\作业\暑期课程\assignment1\group9\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\作业\暑期课程\assignment1\group9\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csproj.CopyComplete
+C:\Users\qinqi\OneDrive\桌面\group9 1\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csprojAssemblyReference.cache
+C:\Users\qinqi\OneDrive\桌面\group9 1\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfoInputs.cache
+C:\Users\qinqi\OneDrive\桌面\group9 1\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.AssemblyInfo.cs
+C:\Users\qinqi\OneDrive\桌面\group9 1\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.exe
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.deps.json
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.json
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.runtimeconfig.dev.json
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.pdb
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\System.Text.Encodings.Web.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\System.Text.Json.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\qinqi\OneDrive\桌面\group9 1\obj\Debug\netcoreapp3.0\WebServiceAndDatabaseExample.csproj.CopyComplete
