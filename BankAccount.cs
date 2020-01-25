@@ -24,7 +24,7 @@ namespace WebServiceAndDatabaseExample
             while (true)
             {
                 Console.WriteLine("Please choose your function: ");
-                Console.Write("1.Deposit 2.Withdraw 3.Transfer 4.DisplayTransaction 5.Customer 6.Log out 7.Exit ");
+                Console.Write("1.Deposit 2.Withdraw 3.Transfer 4.DisplayTransaction 5.Customer Modify information 6.Log out 7.Exit ");
                 Console.WriteLine();
                 var input = Console.ReadLine();
                 Console.WriteLine();
@@ -149,9 +149,9 @@ namespace WebServiceAndDatabaseExample
                 }
                 try
                 {
-                    string sql1 = "UPDATE TestAccount SET Balance = Balance - " + amount + " WHERE CustomerID = (select CustomerID from TestLogin where LoginID = " + ID + ")";                  
-                    SqlCommand cmd1 = new SqlCommand(sql1, conn);
-                    dr1 = cmd1.ExecuteReader();
+                    string sql2 = "UPDATE TestAccount SET Balance = Balance - " + amount + " WHERE CustomerID = (select CustomerID from TestLogin where LoginID = " + ID + ")";                  
+                    SqlCommand cmd2 = new SqlCommand(sql2, conn);
+                    dr1 = cmd2.ExecuteReader();
                 }
                 catch (Exception e)
                 {
@@ -182,17 +182,18 @@ namespace WebServiceAndDatabaseExample
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    Console.WriteLine(" CustomerID: ", reader[" CustomerID"].ToString(), "\r");
-                    Console.WriteLine("Name: ", reader["Name"].ToString(), "\r");
-                    Console.WriteLine("Address: ", reader["Address"].ToString(), "\r");
-                    Console.WriteLine("City: ", reader["City"].ToString(), "\r");
-                    Console.WriteLine("PostCode: ", reader["PostCode"].ToString(), "\r");
-                    Console.WriteLine("State: ", reader["State"].ToString(), "\r");
-                    Console.WriteLine("Phone: ", reader["Phone"].ToString(), "\r");
+                    Console.WriteLine(" CustomerID: "+reader[" CustomerID"].ToString() + "\r");
+                    Console.WriteLine("Name: " + reader["Name"].ToString() + "\r");
+                    Console.WriteLine("Address: " + reader["Address"].ToString() + "\r");
+                    Console.WriteLine("City: " + reader["City"].ToString() + "\r");
+                    Console.WriteLine("PostCode: " + reader["PostCode"].ToString() + "\r");
+                    Console.WriteLine("State: " + reader["State"].ToString() + "\r");
+                    Console.WriteLine("Phone: " + reader["Phone"].ToString() + "\r");
                 }
             }
             catch (Exception e)
             { Console.WriteLine(e); }
+            Console.WriteLine("Please enter the address ：");
             conn.Close();
             UserActionMune(ID);
             return true;
@@ -206,15 +207,15 @@ namespace WebServiceAndDatabaseExample
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    Console.WriteLine("TransactionID: ", reader["TransactionID"].ToString(), "\r");
-                    Console.WriteLine("TransactionType: ", reader["TransactionType"].ToString(), "\r");
-                    Console.WriteLine("AccountNumber: ", reader["TransactionID"].ToString(), "\r");
-                    Console.WriteLine("DestinationAccountNumber: ", reader["TransactionID"].ToString(), "\r");
-                    Console.WriteLine("Amount: ", reader["TransactionType"].ToString(), "\r");
+                    Console.WriteLine("TransactionID: "+ reader["TransactionID"].ToString() + "\r");
+                    Console.WriteLine("TransactionType: " + reader["TransactionType"].ToString() + "\r");
+                    Console.WriteLine("AccountNumber: " + reader["TransactionID"].ToString() + "\r");
+                    Console.WriteLine("DestinationAccountNumber: " + reader["TransactionID"].ToString() + "\r");
+                    Console.WriteLine("Amount: " + reader["TransactionType"].ToString() + "\r");
                 }
             }
             catch (Exception e)
-            { Console.WriteLine(e); }  \
+            { Console.WriteLine(e); }  
             conn.Close();
             UserActionMune(ID);
         }
@@ -227,13 +228,13 @@ namespace WebServiceAndDatabaseExample
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    Console.WriteLine("TransactionID: ",reader["TransactionID"].ToString(), "\r");
-                    Console.WriteLine("TransactionType: ", reader["TransactionType"].ToString(),"\r");
-                    Console.WriteLine("AccountNumber: ", reader["TransactionID"].ToString(),"\r");
-                    Console.WriteLine("DestinationAccountNumber: ", reader["TransactionID"].ToString(), "\r");
-                    Console.WriteLine("Amount: ", reader["TransactionType"].ToString(), "\r");
-                    Console.WriteLine("Comment: ", reader["TransactionID"].ToString(), "\r");
-                    Console.WriteLine("ModifyDate: ", reader["TransactionType"].ToString(), "\r");
+                    Console.WriteLine("TransactionID: " + reader["TransactionID"].ToString() + "\r");
+                    Console.WriteLine("TransactionType: " + reader["TransactionType"].ToString() + "\r");
+                    Console.WriteLine("AccountNumber: " + reader["TransactionID"].ToString() + "\r");
+                    Console.WriteLine("DestinationAccountNumber: ", reader["TransactionID"].ToString() + "\r");
+                    Console.WriteLine("Amount: " + reader["TransactionType"].ToString() + "\r");
+                    Console.WriteLine("Comment: " + reader["TransactionID"].ToString() + "\r");
+                    Console.WriteLine("ModifyDate: " + reader["TransactionType"].ToString() + "\r");
                 }
 
             }
