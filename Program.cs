@@ -11,16 +11,16 @@ namespace WebServiceAndDatabaseExample
             new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
 
         private static string ConnectionString { get; } = Configuration["ConnectionString"];
-        //private string ConnectionString { get; }
-        //private LoginManager LoginManager { get; }
-
-        //public Menu(string connectionString)
-        // {
-        // LoginManager = new LoginManager(connectionString);
-        // }
+        public int ID;
+        string connStr = ConnectionString ;
+        SqlConnection conn = null;
+        SqlDataReader dr = null;
+        string strt = DateTime.Now.ToLocalTime().ToString("dd/MM/yyyy");
 
         public void Run()
         {
+            conn = new SqlConnection(connStr);
+            conn.Open();
             Console.WriteLine("Hello!");
             Console.WriteLine("Please choose your function: ");
             Console.WriteLine("1.Login 2.Register 3.Exit");
@@ -42,7 +42,7 @@ namespace WebServiceAndDatabaseExample
         protected void login()
         {
             Console.WriteLine("Please enter your ID: ");
-            int ID =Convert.ToInt32(Console.ReadLine());
+            ID =Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter your password: ");
             String password = Convert.ToString(Console.ReadLine());
             if (Check(ID, password) == true)
@@ -50,23 +50,23 @@ namespace WebServiceAndDatabaseExample
                 Console.WriteLine("Login success!");
                 BankAccount a = new BankAccount();
                 a.UserActionMune(ID);
-            }
+                }
             else
             {
                 Console.WriteLine("Wrong ID or password!");
                 login();
             }
         }
+        public int Getid()
+        {
+            int id = ID; 
+            return id; 
+        }
         public bool Check(int ID, String password)
         {
-            string connStr = "Server=wdt2020.australiasoutheast.cloudapp.azure.com;Database=s3712674;Uid=s3712674;Password=abc123";
-            SqlConnection conn = null;
-            SqlDataReader dr = null;
             string PasswordHash;
             try
-            {
-                conn = new SqlConnection(connStr);
-                conn.Open();
+            {                
                 string sql = "select PasswordHash from TestLogin where LoginID = " + "'" + ID + "'";
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 dr = cmd.ExecuteReader();
@@ -75,15 +75,11 @@ namespace WebServiceAndDatabaseExample
                     PasswordHash = dr[0].ToString();
                     PBKDF2 pkbdf2 = new PBKDF2(64, 32, 50000);
                     var verify = pkbdf2.verifyHash(password, PasswordHash);
-                    conn.Close();
-                    return verify;
-                    
+                    return verify;                    
                 }
                 else
                 {
-                    conn.Close();
                     return false;
-
                 }
             }
             catch (Exception e)
@@ -121,28 +117,61 @@ namespace WebServiceAndDatabaseExample
                 String passwordHash = pkbdf2.createHash(password);
                 Console.WriteLine("Please enter your cutomerID with 4 numbers: ");
                 int customerID = Convert.ToInt32(Console.ReadLine());
+                
                 Console.WriteLine("Please enter your accountnumber with 4 numbers: ");
                 int accountNumber = Convert.ToInt32(Console.ReadLine());
+                
                 Console.WriteLine("Please enter your login ID with 8 numbers: ");
                 int loginID = Convert.ToInt32(Console.ReadLine());
+                
                 Console.WriteLine("Please enter your balance with numbers: ");
                 decimal balance = Convert.ToInt32(Console.ReadLine());
                 balance = checkBalance(accountType, balance);
                 if (checkReg(customerID, accountNumber, loginID) == true)
                 {
                     //add data to database
+                    /*
                     using var connection = ConnectionString.CreateConnection();
                     connection.Open();
                     var command = connection.CreateCommand();
                     var b = command.CommandText =
-                        "insert into TestLogin (loginID, CustomerID, PasswordHash) values" + "(" + "'" + loginID + "'," + "'" + customerID + "'," + "'" + passwordHash + "'" + ")";
+                        "insert into TestLogin (loginID, CustomerID, PasswordHash, ModifyDate) values" + "(" + "'" + loginID + "'," + "'" + customerID + "'," + "'" + passwordHash + "'"+"'," + "'" + strt + "'" + ")";
                     command.ExecuteNonQuery();
                     using var connection1 = ConnectionString.CreateConnection();
                     connection1.Open();
                     var command1 = connection.CreateCommand();
                     var a = command1.CommandText =
-                        "insert into TestAccount(AccountNumber, AccountType, CustomerID, Balance) values" + "(" + "'" + accountNumber + "'," + "'" + accountType + "'," + "'" + customerID + "'," + "'" + balance + "'" + ")";
+                        "insert into TestAccount(AccountNumber, AccountType, CustomerID, Balance, ModifyDate) values" + "(" + "'" + accountNumber + "'," + "'" + accountType + "'," + "'" + customerID + "'," + "'" + balance + "'" + "'," + "'" + strt + "'" + ")";
                     command1.ExecuteNonQuery();
+                    */
+                    try
+                    {
+                        SqlCommand cmd = conn.CreateCommand();
+                        cmd.CommandText = "insert into TestLogin (loginID, CustomerID, PasswordHash, ModifyDate) values" + "(" + "'" + loginID + "'," + "'" + customerID + "'," + "'" + passwordHash + "'" + "'," + "'" + strt + "'" + ")";
+                        SqlDataReader reader = cmd.ExecuteReader();
+
+                    }
+                    catch (Exception e)
+                    { Console.WriteLine(e); }
+                    try
+                    {
+                        SqlCommand cmd = conn.CreateCommand();
+                        cmd.CommandText = "insert into TestAccount(AccountNumber, AccountType, CustomerID, Balance, ModifyDate) values" + "(" + "'" + accountNumber + "'," + "'" + accountType + "'," + "'" + customerID + "'," + "'" + balance + "'" + "'," + "'" + strt + "'" + ")";
+                        SqlDataReader reader = cmd.ExecuteReader();
+
+                    }
+                    catch (Exception e)
+                    { Console.WriteLine(e); }
+                    try
+                    {
+                        SqlCommand cmd = conn.CreateCommand();
+                        cmd.CommandText = "insert into TestCustomer( CustomerID ) values" + "(" + "'" + customerID + "'" + ")";
+                        SqlDataReader reader = cmd.ExecuteReader();
+
+                    }
+                    catch (Exception e)
+                    { Console.WriteLine(e); }
+                    
                     Run();
                 }
                 else
