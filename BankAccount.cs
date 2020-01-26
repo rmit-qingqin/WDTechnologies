@@ -14,6 +14,8 @@ namespace WebServiceAndDatabaseExample
         SqlConnection conn = null;
         SqlDataReader dr = null;
         SqlDataReader dr1 = null;
+        string strt = DateTime.Now.ToLocalTime().ToString("dd/MM/yyyy");
+
         public BankAccount()
         { }
        
@@ -193,7 +195,66 @@ namespace WebServiceAndDatabaseExample
             }
             catch (Exception e)
             { Console.WriteLine(e); }
+            Console.WriteLine("Please enter the name ：");
+            String custName = Convert.ToString(Console.ReadLine());
+            try
+            {
+                SqlCommand cmd0 = conn.CreateCommand();
+                cmd0.CommandText = "UPDATE TestCustomer	SET Name =  "+ custName + " where CustomerID  where CustomerID = (select CustomerID from TestLogin where LoginID = " + ID + ")";
+                SqlDataReader reader0 = cmd0.ExecuteReader();             
+            }
+            catch (Exception e)
+            { Console.WriteLine(e); }
             Console.WriteLine("Please enter the address ：");
+            String custAddress = Convert.ToString(Console.ReadLine());
+            try
+            {
+                SqlCommand cmd1 = conn.CreateCommand();
+                cmd1.CommandText = "UPDATE TestCustomer	SET Address =  " + custAddress + " where CustomerID  where CustomerID = (select CustomerID from TestLogin where LoginID = " + ID + ")";
+                SqlDataReader reader1 = cmd1.ExecuteReader();
+            }
+            catch (Exception e)
+            { Console.WriteLine(e); }
+            Console.WriteLine("Please enter the city ：");
+            String custCity = Convert.ToString(Console.ReadLine());
+            try
+            {
+                SqlCommand cmd2 = conn.CreateCommand();
+                cmd2.CommandText = "UPDATE TestCustomer	SET City =  " + custCity + " where CustomerID  where CustomerID = (select CustomerID from TestLogin where LoginID = " + ID + ")";
+                SqlDataReader reader2 = cmd2.ExecuteReader();
+            }
+            catch (Exception e)
+            { Console.WriteLine(e); }
+            Console.WriteLine("Please enter the PostCode ：");
+            String custPostcode = Convert.ToString(Console.ReadLine());
+            try
+            {
+                SqlCommand cmd3 = conn.CreateCommand();
+                cmd3.CommandText = "UPDATE TestCustomer	SET PostCode =  " + custPostcode + " where CustomerID  where CustomerID = (select CustomerID from TestLogin where LoginID = " + ID + ")";
+                SqlDataReader reader3 = cmd3.ExecuteReader();
+            }
+            catch (Exception e)
+            { Console.WriteLine(e); }
+            Console.WriteLine("Please enter the State ：");
+            String custState = Convert.ToString(Console.ReadLine());
+            try
+            {
+                SqlCommand cmd4 = conn.CreateCommand();
+                cmd4.CommandText = "UPDATE TestCustomer	SET State =  " + custState + " where CustomerID  where CustomerID = (select CustomerID from TestLogin where LoginID = " + ID + ")";
+                SqlDataReader reader4 = cmd4.ExecuteReader();
+            }
+            catch (Exception e)
+            { Console.WriteLine(e); }
+            Console.WriteLine("Please enter the custPhone ：");
+            String custPhone = Convert.ToString(Console.ReadLine());
+            try
+            {
+                SqlCommand cmd5 = conn.CreateCommand();
+                cmd5.CommandText = "UPDATE TestCustomer	SET Phone =  " + custPhone + " where CustomerID  where CustomerID = (select CustomerID from TestLogin where LoginID = " + ID + ")";
+                SqlDataReader reader5 = cmd5.ExecuteReader();
+            }
+            catch (Exception e)
+            { Console.WriteLine(e); }            
             conn.Close();
             UserActionMune(ID);
             return true;
