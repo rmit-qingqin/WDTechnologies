@@ -12,11 +12,11 @@ namespace WebServiceAndDatabaseExample
         public CustomerManager(string connectionString)
         {
             ConnectionString = connectionString;
-
+            Menu m = new Menu();
             using var connection = ConnectionString.CreateConnection();
             var command = connection.CreateCommand();
-            command.CommandText = "select * from TestCustomer";
-
+            command.CommandText = "select * from TestCustomer ";
+            //command.CommandText = "select * from TestCustomer ";
             custo = command.GetDataTable().Select().Select(x =>
                 new Customer((int)x["CustomerID"], (string)x["Name"], (string)x["Address"], (string)x["City"], (string)x["PostCode"])).ToList();
         }

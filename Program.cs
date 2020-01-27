@@ -117,13 +117,28 @@ namespace WebServiceAndDatabaseExample
                 String passwordHash = pkbdf2.createHash(password);
                 Console.WriteLine("Please enter your cutomerID with 4 numbers: ");
                 int customerID = Convert.ToInt32(Console.ReadLine());
-                
+                while (customerID < 0 || customerID > 9999)
+                {
+                    Console.WriteLine("Please enter a number in the range 0000--9999");
+                    Console.WriteLine("Please enter your cutomerID with 4 numbers: ");
+                    customerID = Convert.ToInt32(Console.ReadLine());
+                }
                 Console.WriteLine("Please enter your accountnumber with 4 numbers: ");
                 int accountNumber = Convert.ToInt32(Console.ReadLine());
-                
+                while (accountNumber < 0 || accountNumber > 9999)
+                {
+                    Console.WriteLine("Please enter a number in the range 0000--9999");
+                    Console.WriteLine("Please enter your accountnumber with 4 numbers: ");
+                    accountNumber = Convert.ToInt32(Console.ReadLine());
+                }
                 Console.WriteLine("Please enter your login ID with 8 numbers: ");
                 int loginID = Convert.ToInt32(Console.ReadLine());
-                
+                while (loginID < 0 || loginID > 99999999)
+                {
+                    Console.WriteLine("Please enter a number in the range 0--99999999");
+                    Console.WriteLine("Please enter your login ID with 8 numbers: ");
+                    loginID = Convert.ToInt32(Console.ReadLine());
+                }
                 Console.WriteLine("Please enter your balance with numbers: ");
                 decimal balance = Convert.ToInt32(Console.ReadLine());
                 balance = checkBalance(accountType, balance);

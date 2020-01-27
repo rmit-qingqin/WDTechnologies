@@ -226,7 +226,13 @@ namespace WebServiceAndDatabaseExample
             catch (Exception e)
             { Console.WriteLine(e); }
             Console.WriteLine("Please enter the PostCode ：");
-            String custPostcode = Convert.ToString(Console.ReadLine());
+            int custPostcode = Convert.ToInt32(Console.ReadLine());
+            while (custPostcode < 0 || custPostcode > 99999) 
+            {
+                Console.WriteLine("Please enter a number in the range ：");
+                Console.WriteLine("Please enter the PostCode ：");
+                custPostcode = Convert.ToInt32(Console.ReadLine());
+            }
             try
             {
                 SqlCommand cmd3 = conn.CreateCommand();
@@ -246,7 +252,13 @@ namespace WebServiceAndDatabaseExample
             catch (Exception e)
             { Console.WriteLine(e); }
             Console.WriteLine("Please enter the custPhone ：");
-            String custPhone = Convert.ToString(Console.ReadLine());
+            long custPhone = Convert.ToInt64(Console.ReadLine());
+            while (custPhone < 1000000000 || custPhone > 9999999999)
+            {
+                Console.WriteLine("Please enter a number in the range ：");
+                Console.WriteLine("Please enter the custPhone ：");
+                custPhone = Convert.ToInt64(Console.ReadLine());
+            }
             try
             {
                 SqlCommand cmd5 = conn.CreateCommand();

@@ -14,8 +14,8 @@ namespace WebServiceAndDatabaseExample
             ConnectionString = connectionString;
             using var connection = ConnectionString.CreateConnection();
             var command = connection.CreateCommand();
-            //int CustoID = CustoID.getCustomerID();
-            command.CommandText = "select * from TestAccount";
+            Menu m = new Menu();
+            command.CommandText = "select * from TestAccount ";
             acc = command.GetDataTable().Select().Select(x =>
                 new Account((int)x["AccountNumber"], (string)x["AccountType"], (int)x["CustomerID"], (decimal)x["Balance"])).ToList();
         }
