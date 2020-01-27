@@ -8,9 +8,13 @@ namespace WebServiceAndDatabaseExample
 {
     class BankAccount
     {
+        private static IConfigurationRoot Configuration { get; } =
+            new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+
+        private static string ConnectionString { get; } = Configuration["ConnectionString"];
         private decimal balance;
         public decimal amount;
-        string connStr = "Server=wdt2020.australiasoutheast.cloudapp.azure.com;Database=s3712674;Uid=s3712674;Password=abc123";
+        string connStr = ConnectionString ;
         SqlConnection conn = null;
         SqlDataReader dr = null;
         SqlDataReader dr1 = null;
@@ -253,7 +257,7 @@ namespace WebServiceAndDatabaseExample
             { Console.WriteLine(e); }
             Console.WriteLine("Please enter the custPhone ：");
             long custPhone = Convert.ToInt64(Console.ReadLine());
-            while (custPhone < 1000000000 || custPhone > 9999999999)
+            while (custPhone <= 1000000000 || custPhone >= 9999999999)
             {
                 Console.WriteLine("Please enter a number in the range ：");
                 Console.WriteLine("Please enter the custPhone ：");
@@ -309,7 +313,6 @@ namespace WebServiceAndDatabaseExample
                     Console.WriteLine("Comment: " + reader["TransactionID"].ToString() + "\r");
                     Console.WriteLine("ModifyDate: " + reader["TransactionType"].ToString() + "\r");
                 }
-
             }
             catch (Exception e)
             { Console.WriteLine(e); }

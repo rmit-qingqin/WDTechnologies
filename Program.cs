@@ -15,7 +15,6 @@ namespace WebServiceAndDatabaseExample
         string connStr = ConnectionString ;
         SqlConnection conn = null;
         SqlDataReader dr = null;
-        string strt = DateTime.Now.ToLocalTime().ToString("dd/MM/yyyy");
 
         public void Run()
         {
@@ -117,7 +116,7 @@ namespace WebServiceAndDatabaseExample
                 String passwordHash = pkbdf2.createHash(password);
                 Console.WriteLine("Please enter your cutomerID with 4 numbers: ");
                 int customerID = Convert.ToInt32(Console.ReadLine());
-                while (customerID < 0 || customerID > 9999)
+                while (customerID < 1000 || customerID > 9999 && customerID!=0000)
                 {
                     Console.WriteLine("Please enter a number in the range 0000--9999");
                     Console.WriteLine("Please enter your cutomerID with 4 numbers: ");
@@ -125,7 +124,7 @@ namespace WebServiceAndDatabaseExample
                 }
                 Console.WriteLine("Please enter your accountnumber with 4 numbers: ");
                 int accountNumber = Convert.ToInt32(Console.ReadLine());
-                while (accountNumber < 0 || accountNumber > 9999)
+                while (accountNumber <= 1000 || accountNumber >= 9999 && accountNumber != 0000)
                 {
                     Console.WriteLine("Please enter a number in the range 0000--9999");
                     Console.WriteLine("Please enter your accountnumber with 4 numbers: ");
@@ -133,7 +132,7 @@ namespace WebServiceAndDatabaseExample
                 }
                 Console.WriteLine("Please enter your login ID with 8 numbers: ");
                 int loginID = Convert.ToInt32(Console.ReadLine());
-                while (loginID < 0 || loginID > 99999999)
+                while (loginID <= 10000000 || loginID >= 99999999 && accountNumber != 00000000)
                 {
                     Console.WriteLine("Please enter a number in the range 0--99999999");
                     Console.WriteLine("Please enter your login ID with 8 numbers: ");
@@ -142,6 +141,7 @@ namespace WebServiceAndDatabaseExample
                 Console.WriteLine("Please enter your balance with numbers: ");
                 decimal balance = Convert.ToInt32(Console.ReadLine());
                 balance = checkBalance(accountType, balance);
+                string strt = DateTime.Now.ToLocalTime().ToString("dd/MM/yyyy");
                 if (checkReg(customerID, accountNumber, loginID) == true)
                 {
                     //add data to database
@@ -162,7 +162,8 @@ namespace WebServiceAndDatabaseExample
                     try
                     {
                         SqlCommand cmd = conn.CreateCommand();
-                        cmd.CommandText = "insert into TestLogin (loginID, CustomerID, PasswordHash, ModifyDate) values" + "(" + "'" + loginID + "'," + "'" + customerID + "'," + "'" + passwordHash + "'" + "'," + "'" + strt + "'" + ")";
+                        cmd.CommandText = "insert into TestLogin values" + "(" + "'" + loginID + "'," + "'" + customerID + "'," + "'" + passwordHash + "'" + "'," + "'" + strt + "'" + ")";
+                        //cmd.CommandText = "insert into TestLogin (loginID, CustomerID, PasswordHash, ModifyDate) values" + "(" + "'" + loginID + "'," + "'" + customerID + "'," + "'" + passwordHash + "'" + "'," + "'" + strt + "'" + ")";
                         SqlDataReader reader = cmd.ExecuteReader();
 
                     }
@@ -171,7 +172,8 @@ namespace WebServiceAndDatabaseExample
                     try
                     {
                         SqlCommand cmd = conn.CreateCommand();
-                        cmd.CommandText = "insert into TestAccount(AccountNumber, AccountType, CustomerID, Balance, ModifyDate) values" + "(" + "'" + accountNumber + "'," + "'" + accountType + "'," + "'" + customerID + "'," + "'" + balance + "'" + "'," + "'" + strt + "'" + ")";
+                        cmd.CommandText = "insert into TestAccount values" + "(" + "'" + accountNumber + "'," + "'" + accountType + "'," + "'" + customerID + "'," + "'" + balance + "'" + "'," + "'" + strt + "'" + ")";
+                        //cmd.CommandText = "insert into TestAccount(AccountNumber, AccountType, CustomerID, Balance, ModifyDate) values" + "(" + "'" + accountNumber + "'," + "'" + accountType + "'," + "'" + customerID + "'," + "'" + balance + "'" + "'," + "'" + strt + "'" + ")";
                         SqlDataReader reader = cmd.ExecuteReader();
 
                     }
